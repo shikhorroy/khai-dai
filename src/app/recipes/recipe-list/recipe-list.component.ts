@@ -9,13 +9,13 @@ import {Recipe} from './recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes = [
-    new Recipe('The test recipe', 'This is a simply a test',
+    new Recipe('The Test Recipe', 'This is a simply a test',
       'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/8/6/0/WU2301_Four-Cheese-Pepperoni-Pizzadilla_s4x3.jpg.rend' +
       '.hgtvcom.826.620.suffix/1565115622965.jpeg'),
-    new Recipe('The test recipe', 'This is a simply a test',
+    new Recipe('The Test Recipe', 'This is a simply a test',
       'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/8/6/0/WU2301_Four-Cheese-Pepperoni-Pizzadilla_s4x3.jpg.rend' +
       '.hgtvcom.826.620.suffix/1565115622965.jpeg'),
-    new Recipe('The test recipe', 'This is a simply a test',
+    new Recipe('The Test Recipe', 'This is a simply a test',
       'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/8/6/0/WU2301_Four-Cheese-Pepperoni-Pizzadilla_s4x3.jpg.rend' +
       '.hgtvcom.826.620.suffix/1565115622965.jpeg')
   ];
